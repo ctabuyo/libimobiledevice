@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
 s.homepage = "https://github.com/libimobiledevice/libimobiledevice" 
 s.license = {:type => 'GPL', :file => 'COPYING'}
 
-s.author = 'Chris Stroud' 
+s.author = 'Christian Tabuyo' 
 s.platform = :osx, '10.15' 
-s.source = { :git => "https://github.com/Clstroud/libimobiledevice.git", :tag => "v#{s.version}"}
+s.source = { :git => "https://github.com/ctabuyo/libimobiledevice", :tag => "v#{s.version}"}
 s.preserve_paths = "common/*.h"
 s.source_files = 'src/*.{h,c,m,cpp}', 'include/*.h', 'include/libimobiledevice/*.h', 'common/*.{h,c,m,cpp}'
 s.public_header_files =  'include/libimobiledevice/*.h'
